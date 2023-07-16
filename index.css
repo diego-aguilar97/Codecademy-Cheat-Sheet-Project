@@ -1,0 +1,26 @@
+body {
+    background-color: royalblue;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid navy;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: goldenrod;
+    width: auto;
+}
+
+th, td {
+    padding: 40px;
+}
+
+.background {
+    background-color: navy;
+    padding: 20px;
+}

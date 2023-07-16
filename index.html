@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Cheat Code Sheet</title>
+    <link rel="stylesheet" href="Resources/CSS/index.css">
+</head>
+<body>
+
+        <!--Header Section-->
+    <header>
+        <h1 class="background">CSS Selectors And Specificity</h1>
+    </header>
+         <!--Table Headings-->
+    <table>
+            <thead>
+            <tr>
+                <th>Selector Type</th>
+                <th>Degree Of Specificity And Its Use</th>
+                <th>Visual Example</th>
+            </tr>
+            </thead>
+
+        <!--Table Content-->
+            <tbody>
+            <tr>
+                <td>Type</td>
+                <td>This is the lowest degree of specificity and is used to make styles easy to edit</td>
+                <td>h1 {
+                    <div>color: red;</div>
+                }
+                </td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td>More specific than a type selector and can be reused over many elements</td>
+                <td>.headline {
+                    <div>color: blue;</div>
+                }
+                </td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>This is the highest degree of specificity. It overrides the styles of both type and class selectors. It is meant to be used sparingly for example, on elements that must always look the same.</td>
+                <td>#large-title {
+                    <div>color: green;</div>
+                }
+                </td>
+            </tr>
+            </tbody>
+     </table>
+</body>
+</html>
